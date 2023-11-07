@@ -11,6 +11,10 @@
 
 # Environment variables
 
+~~~
 export PATH=/SCC/ckrisgarrett/install/gcc/12.2.0/bin:$PATH
-export LD_LIBRARY_PATH=/SCC/ckrisgarrett/install/gcc/12.2.0/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/SCC/ckrisgarrett/install/gcc/12.2.0/lib64:$LD_LIBRARY_PATH
 export MANPATH=/SCC/ckrisgarrett/install/gcc/12.2.0/share
+~~~
+
+You can put this in a file called gcc-12.2.0 and then call ``source gcc-12.2.0``
